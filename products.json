@@ -1,0 +1,682 @@
+[
+  {
+    "id": 1,
+    "description":"Products you'll definitely love browsing",
+    "title": "SkyEye 4K Drone",
+    "price": "205.29",
+    "category": "electronics",
+    "image": "assets/electronics/drone.jpg"
+  },
+  {
+    "id": 2,
+    "description":"Products you'll definitely love browsing",
+    "title": "Falcon Pro Quadcopter drone",
+    "price": "425.96",
+    "category": "electronics",
+    "image": "assets/electronics/drone2.jpg"
+  },
+  {
+    "id": 3,
+    "description":"Products you'll definitely love browsing",
+    "title": "AeroZoom GPS Drone",
+    "price": "129.30",
+    "category": "electronics",
+    "image": "assets/electronics/drone3.jpg"
+  },
+  {
+    "id": 4,
+    "description":"Products you'll definitely love browsing",
+    "title": "SwiftFly Mini Drone",
+    "price": "449.81",
+    "category": "electronics",
+    "image": "assets/electronics/drone4.jpg"
+  },
+  {
+    "id": 5,
+    "description":"Products you'll definitely love browsing",
+    "title": "HawkVision HD Drone",
+    "price": "76.00",
+    "category": "electronics",
+    "image": "assets/electronics/drone5.jpg"
+  },
+  {
+    "id": 6,
+    "description":"Products you'll definitely love browsing",
+    "title": "BassBeat Wireless Headphones",
+    "price": "256.22",
+    "category": "electronics",
+    "image": "assets/electronics/headphone1.jpg"
+  },
+  {
+    "id": 7,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 7",
+    "price": "385.86",
+    "category": "electronics",
+    "image": "assets/electronics/headphone2.jpg"
+  },
+  {
+    "id": 8,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 8",
+    "price": "460.29",
+    "category": "electronics",
+    "image": "assets/electronics/headphone3.jpg"
+  },
+  {
+    "id": 9,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 9",
+    "price": "136.99",
+    "category": "electronics",
+    "image": "assets/electronics/headphone4.jpg"
+  },
+  {
+    "id": 10,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 10",
+    "price": "445.44",
+    "category": "electronics",
+    "image": "assets/electronics/headphone5.jpg"
+  },
+  {
+    "id": 11,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 11",
+    "price": "387.36",
+    "category": "electronics",
+    "image": "assets/electronics/laptop1.jpg"
+  },
+  {
+    "id": 12,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 12",
+    "price": "213.93",
+    "category": "electronics",
+    "image": "assets/electronics/laptop2.jpg"
+  },
+  {
+    "id": 13,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 13",
+    "price": "349.49",
+    "category": "electronics",
+    "image": "assets/electronics/laptop3.jpg"
+  },
+  {
+    "id": 14,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 14",
+    "price": "244.49",
+    "category": "electronics",
+    "image": "assets/electronics/laptop4.jpg"
+  },
+  {
+    "id": 15,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 15",
+    "price": "127.81",
+    "category": "electronics",
+    "image": "assets/electronics/laptop5.jpg"
+  },
+  {
+    "id": 16,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 16",
+    "price": "387.19",
+    "category": "electronics",
+    "image": "assets/electronics/phone1.jpg"
+  },
+  {
+    "id": 17,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 17",
+    "price": "122.53",
+    "category": "electronics",
+    "image": "assets/electronics/phone2.jpg"
+  },
+  {
+    "id": 18,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 18",
+    "price": "102.51",
+    "category": "electronics",
+    "image": "assets/electronics/phone3.jpg"
+  },
+  {
+    "id": 19,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 19",
+    "price": "183.96",
+    "category": "electronics",
+    "image": "assets/electronics/phone4.jpg"
+  },
+  {
+    "id": 20,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 20",
+    "price": "135.57",
+    "category": "electronics",
+    "image": "assets/electronics/phone5.jpg"
+  },
+  {
+    "id": 21,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 21",
+    "price": "278.12",
+    "category": "electronics",
+    "image": "assets/electronics/watch1.jpg"
+  },
+  {
+    "id": 22,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 22",
+    "price": "23.00",
+    "category": "electronics",
+    "image": "assets/electronics/watch2.jpg"
+  },
+  {
+    "id": 23,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 23",
+    "price": "484.85",
+    "category": "electronics",
+    "image": "assets/electronics/watch3.jpg"
+  },
+  {
+    "id": 24,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 24",
+    "price": "226.25",
+    "category": "electronics",
+    "image": "assets/electronics/watch4.jpg"
+  },
+  {
+    "id": 25,
+    "description":"Products you'll definitely love browsing",
+    "title": "Electronics Product 25",
+    "price": "28.32",
+    "category": "electronics",
+    "image": "assets/electronics/watch5.jpg"
+  },
+  {
+    "id": 26,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 26",
+    "price": "406.95",
+    "category": "accesseries",
+    "image": "assets/accessires/img1.jpg"
+  },
+  {
+    "id": 27,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 27",
+    "price": "17.81",
+    "category": "accesseries",
+    "image": "assets/accessires/img2.jpg"
+  },
+  {
+    "id": 28,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 28",
+    "price": "268.32",
+    "category": "accesseries",
+    "image": "assets/accessires/img3.jpg"
+  },
+  {
+    "id": 29,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 29",
+    "price": "133.04",
+    "category": "accesseries",
+    "image": "assets/accessires/img4.jpg"
+  },
+  {
+    "id": 30,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 30",
+    "price": "116.68",
+    "category": "accesseries",
+    "image": "assets/accessires/img5.jpg"
+  },
+  {
+    "id": 31,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 31",
+    "price": "221.67",
+    "category": "accesseries",
+    "image": "assets/accessires/img6.jpg"
+  },
+  {
+    "id": 32,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 32",
+    "price": "461.80",
+    "category": "accesseries",
+    "image": "assets/accessires/img7.jpg"
+  },
+  {
+    "id": 33,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 33",
+    "price": "306.35",
+    "category": "accesseries",
+    "image": "assets/accessires/img8.jpg"
+  },
+  {
+    "id": 34,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 34",
+    "price": "189.00",
+    "category": "accesseries",
+    "image": "assets/accessires/img9.jpg"
+  },
+  {
+    "id": 35,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 35",
+    "price": "177.17",
+    "category": "accesseries",
+    "image": "assets/accessires/img10.jpg"
+  },
+  {
+    "id": 36,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 36",
+    "price": "100.86",
+    "category": "accesseries",
+    "image": "assets/accessires/img11.jpg"
+  },
+  {
+    "id": 37,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 37",
+    "price": "277.43",
+    "category": "accesseries",
+    "image": "assets/accessires/img12.jpg"
+  },
+  {
+    "id": 38,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 38",
+    "price": "293.99",
+    "category": "accesseries",
+    "image": "assets/accessires/img13.jpg"
+  },
+  {
+    "id": 39,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 39",
+    "price": "299.27",
+    "category": "accesseries",
+    "image": "assets/accessires/img14.jpg"
+  },
+  {
+    "id": 40,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 40",
+    "price": "330.66",
+    "category": "accesseries",
+    "image": "assets/accessires/img15.jpg"
+  },
+  {
+    "id": 41,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 41",
+    "price": "141.90",
+    "category": "accesseries",
+    "image": "assets/accessires/img16.jpg"
+  },
+  {
+    "id": 42,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 42",
+    "price": "226.02",
+    "category": "accesseries",
+    "image": "assets/accessires/img17.jpg"
+  },
+  {
+    "id": 43,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 43",
+    "price": "368.92",
+    "category": "accesseries",
+    "image": "assets/accessires/img18.jpg"
+  },
+  {
+    "id": 44,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 44",
+    "price": "157.80",
+    "category": "accesseries",
+    "image": "assets/accessires/img19.jpg"
+  },
+  {
+    "id": 45,
+    "description":"Products you'll definitely love browsing",
+    "title": "accesseries Product 45",
+    "price": "61.66",
+    "category": "accesseries",
+    "image": "assets/accessires/img20.jpg"
+  },
+  {
+    "id": 46,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 46",
+    "price": "353.62",
+    "category": "men's clothing",
+    "image": "assets/mens/img1.jpg"
+  },
+  {
+    "id": 47,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 47",
+    "price": "262.74",
+    "category": "men's clothing",
+    "image": "assets/mens/img2.jpg"
+  },
+  {
+    "id": 48,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 48",
+    "price": "249.21",
+    "category": "men's clothing",
+    "image": "assets/mens/img3.jpg"
+  },
+  {
+    "id": 49,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 49",
+    "price": "322.62",
+    "category": "men's clothing",
+    "image": "assets/mens/img4.jpg"
+  },
+  {
+    "id": 50,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 50",
+    "price": "327.34",
+    "category": "men's clothing",
+    "image": "assets/mens/img5.jpg"
+  },
+  {
+    "id": 51,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 51",
+    "price": "285.64",
+    "category": "men's clothing",
+    "image": "assets/mens/img6.jpg"
+  },
+  {
+    "id": 52,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 52",
+    "price": "253.79",
+    "category": "men's clothing",
+    "image": "assets/mens/img7.jpg"
+  },
+  {
+    "id": 53,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 53",
+    "price": "68.50",
+    "category": "men's clothing",
+    "image": "assets/mens/img8.jpg"
+  },
+  {
+    "id": 54,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 54",
+    "price": "164.43",
+    "category": "men's clothing",
+    "image": "assets/mens/img9.jpg"
+  },
+  {
+    "id": 55,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 55",
+    "price": "282.80",
+    "category": "men's clothing",
+    "image": "assets/mens/img10.jpg"
+  },
+  {
+    "id": 56,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 56",
+    "price": "110.45",
+    "category": "men's clothing",
+    "image": "assets/mens/img11.jpg"
+  },
+  {
+    "id": 57,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 57",
+    "price": "264.01",
+    "category": "men's clothing",
+    "image": "assets/mens/img12.jpg"
+  },
+  {
+    "id": 58,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 58",
+    "price": "160.02",
+    "category": "men's clothing",
+    "image": "assets/mens/img13.jpg"
+  },
+  {
+    "id": 59,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 59",
+    "price": "133.98",
+    "category": "men's clothing",
+    "image": "assets/mens/img14.jpg"
+  },
+  {
+    "id": 60,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 60",
+    "price": "98.18",
+    "category": "men's clothing",
+    "image": "assets/mens/img15.jpg"
+  },
+  {
+    "id": 61,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 61",
+    "price": "360.86",
+    "category": "men's clothing",
+    "image": "assets/mens/img16.jpg"
+  },
+  {
+    "id": 62,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 62",
+    "price": "257.04",
+    "category": "men's clothing",
+    "image": "assets/mens/img17.jpg"
+  },
+  {
+    "id": 63,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 63",
+    "price": "25.28",
+    "category": "men's clothing",
+    "image": "assets/mens/img18.jpg"
+  },
+  {
+    "id": 64,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 64",
+    "price": "209.95",
+    "category": "men's clothing",
+    "image": "assets/mens/img19.jpg"
+  },
+  {
+    "id": 65,
+    "description":"Products you'll definitely love browsing",
+    "title": "Men's Clothing Product 65",
+    "price": "94.65",
+    "category": "men's clothing",
+    "image": "assets/mens/img20.jpg"
+  },
+  {
+    "id": 66,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 66",
+    "price": "370.23",
+    "category": "women's clothing",
+    "image": "assets/women/img1.jpg"
+  },
+  {
+    "id": 67,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 67",
+    "price": "120.94",
+    "category": "women's clothing",
+    "image": "assets/women/img2.jpg"
+  },
+  {
+    "id": 68,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 68",
+    "price": "229.55",
+    "category": "women's clothing",
+    "image": "assets/women/img3.jpg"
+  },
+  {
+    "id": 69,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 69",
+    "price": "187.28",
+    "category": "women's clothing",
+    "image": "assets/women/img4.jpg"
+  },
+  {
+    "id": 70,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 70",
+    "price": "325.29",
+    "category": "women's clothing",
+    "image": "assets/women/img5.jpg"
+  },
+  {
+    "id": 71,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 71",
+    "price": "439.54",
+    "category": "women's clothing",
+    "image": "assets/women/img6.jpg"
+  },
+  {
+    "id": 72,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 72",
+    "price": "28.23",
+    "category": "women's clothing",
+    "image": "assets/women/img7.jpg"
+  },
+  {
+    "id": 73,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 73",
+    "price": "12.46",
+    "category": "women's clothing",
+    "image": "assets/women/img8.jpg"
+  },
+  {
+    "id": 74,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 74",
+    "price": "83.38",
+    "category": "women's clothing",
+    "image": "assets/women/img9.jpg"
+  },
+  {
+    "id": 75,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 75",
+    "price": "22.44",
+    "category": "women's clothing",
+    "image": "assets/women/img10.jpg"
+  },
+  {
+    "id": 76,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 76",
+    "price": "347.58",
+    "category": "women's clothing",
+    "image": "assets/women/img11.jpg"
+  },
+  {
+    "id": 77,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 77",
+    "price": "332.53",
+    "category": "women's clothing",
+    "image": "assets/women/img12.jpg"
+  },
+  {
+    "id": 78,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 78",
+    "price": "481.43",
+    "category": "women's clothing",
+    "image": "assets/women/img13.jpg"
+  },
+  {
+    "id": 79,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 79",
+    "price": "417.61",
+    "category": "women's clothing",
+    "image": "assets/women/img14.jpg"
+  },
+  {
+    "id": 80,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 80",
+    "price": "285.19",
+    "category": "women's clothing",
+    "image": "assets/women/img15.jpg"
+  },
+  {
+    "id": 81,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 81",
+    "price": "64.13",
+    "category": "women's clothing",
+    "image": "assets/women/img16.jpg"
+  },
+  {
+    "id": 82,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 82",
+    "price": "235.03",
+    "category": "women's clothing",
+    "image": "assets/women/img17.jpg"
+  },
+  {
+    "id": 83,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 83",
+    "price": "470.39",
+    "category": "women's clothing",
+    "image": "assets/women/img18.jpg"
+  },
+  {
+    "id": 84,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 84",
+    "price": "446.15",
+    "category": "women's clothing",
+    "image": "assets/women/img19.jpg"
+  },
+  {
+    "id": 85,
+    "description":"Products you'll definitely love browsing",
+    "title": "Women's Clothing Product 85",
+    "price": "445.30",
+    "category": "women's clothing",
+    "image": "assets/women/img20.jpg"
+  }
+]

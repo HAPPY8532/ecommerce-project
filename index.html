@@ -14,31 +14,72 @@
     />
   </head>
   <body>
-    <!-- Navbar here -->
+    <!-- Header -->
+    <header class="header">
+      <div class="container flex">
+        <div class="logo">Neo<span>Mart</span></div>
 
-    <header>
-      <nav class="navbar flex container">
-        <a href="#" class="logo"> Easy<span>Buy.</span> </a>
-        <ul class="navlist flex">
-          <li><a href="#" class="link link-active">Home</a></li>
-          <li><a href="#" class="link">Page</a></li>
-          <li><a href="#" class="link">shope</a></li>
-          <li><a href="#" class="link">blog</a></li>
-          <li><a href="#" class="link">contact</a></li>
-          <li class="nav-icons flex">
-            <a href="#" class="icon"
-              ><i class="fa-solid fa-magnifying-glass"></i
-            ></a>
-            <a href="#" class="icon"><i class="fa-solid fa-user"></i></a>
-            <a href="#" class="icon icon-active"
-              ><i class="fa-solid fa-shopping-bag"></i
-            ></a>
-          </li>
-        </ul>
-        <a href="#" class="hamburger">
-          <i class="fa-solid fa-bars"></i>
-        </a>
-      </nav>
+        <nav class="navbar flex" id="navbar">
+          <ul class="nav-list flex">
+            <li><a href="#" onclick="goBack()" class="link-active">Home</a></li>
+            <li><a href="#product-page">Products</a></li>
+            <li class="drop">
+              <a href="#"
+                >Categories <i class="fa-solid fa-chevron-down"></i
+              ></a>
+              <div class="drop-down">
+                <ul>
+                  <li>
+                    <a
+                      href="#"
+                      class="category-buttons"
+                      data-category="electronics"
+                      >Electronics</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="category-buttons"
+                      data-category="jewelery"
+                      >Jewelery</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="category-buttons"
+                      data-category="men's clothing"
+                      >Men's clothing</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="category-buttons"
+                      data-category="women's clothing"
+                      >Women's clothing</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-right flex">
+          <input
+            type="text"
+            placeholder="Search products..."
+            class="search-box"
+          />
+          <div class="cart icon">
+            🛒<span class="cart-count" id="cart-count">0</span>
+          </div>
+          <button class="menu-toggle" id="menu-toggle">☰</button>
+        </div>
+      </div>
     </header>
 
     <!-- Sections here -->
@@ -54,85 +95,65 @@
           </div>
         </div>
       </section>
-
-      <section class="section container">
+      <section class="section container categorys">
+        <h2 class="section-title">Shop by Category</h2>
+        <hr />
         <div class="category-container">
+          <!-- Men's Clothing -->
           <div class="category">
             <img
-              src="assets/handsome-man-with-hat-looking-away_23-2148448878.avif"
+              src="assets/samuel-lopes-SyPk4FxjTXQ-unsplash.jpg"
+              alt="Men's Clothing"
             />
-            <button>For men's</button>
+            <button class="category-buttons" data-category="men's clothing">
+              Men's Clothing
+            </button>
           </div>
+
+          <!-- Women's Clothing -->
           <div class="category">
-            <img src="assets/Street-fashion-kids-boys-blazer-outfit.webp" />
-            <button>For Kids</button>
+            <img
+              src="assets/davide-boscolo-gz9njd0zYbQ-unsplash.jpg"
+              alt="electronics"
+            />
+            <button class="category-buttons" data-category="electronics">
+              electronics
+            </button>
           </div>
+
+          <!-- Jewelery -->
           <div class="category">
-            <img src="assets/accessory_79573b939f.png" />
-            <button>Accessories</button>
+            <img src="assets/accessory_79573b939f.png" alt="accesseries" />
+            <button class="category-buttons" data-category="accesseries">
+              accesseries
+            </button>
           </div>
+
+          <!-- Electronics -->
           <div class="category">
-            <img src="assets/Womens fashion.jpeg" />
-            <button>For Women's</button>
+            <img
+              src="assets/mike-von-V4cl7_0N2mc-unsplash.jpg"
+              alt="women's clothes"
+            />
+            <button class="category-buttons" data-category="women's clothing">
+              women's clothing
+            </button>
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
+
+      <section class="products-section" id="product-page">
+        <div class="pro-container">
           <h2>New product</h2>
           <div class="line"></div>
-          <div class="card-container flex">
-            <div class="card">
-              <div class="img-container">
-                <img src="assets/card1.jpg" alt="" />
-              </div>
-              <div class="card-content">
-                <p class="title">Handmaded Danim shoe</p>
-                <div class="price">
-                  <span class="amount">$100</span>
-                </div>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </div>
-            <div class="card sale">
-              <div class="img-container">
-                <img src="assets/card2.jpg" alt="" />
-              </div>
-              <div class="card-content">
-                <p class="title">Handmaded Danim shoe</p>
-                <div class="price">
-                  <del>$150.00</del>
-                  <span class="amount">$100</span>
-                </div>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </div>
-            <div class="card new">
-              <div class="img-container">
-                <img src="assets/card3.webp" alt="" />
-              </div>
-              <div class="card-content">
-                <p class="title">Handmaded Danim shoe</p>
-                <div class="price">
-                  <span class="amount">$100</span>
-                </div>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </div>
-            <div class="card new">
-              <div class="img-container">
-                <img src="assets/card4.jpeg" alt="" />
-              </div>
-              <div class="card-content">
-                <p class="title">Handmaded Danim shoe</p>
-                <div class="price">
-                  <span class="amount">$100</span>
-                </div>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </div>
+          <hr />
+          <div class="products-container" id="products-container">
+            <!-- Products will be added here dynamically -->
           </div>
         </div>
+      </section>
+      <section class="section product-details">
+        <button class="go-back">back</button>
       </section>
 
       <section class="section">
@@ -145,118 +166,15 @@
       </section>
 
       <section class="section">
-        <div class="container">
-          <h2>Best sale</h2>
-          <div class="line"></div>
-          <div>
-            <div class="card-container flex">
-            <div class="card">
-              <div class="img-container">
-                <img src="assets/card5.jpg" alt="" />
-              </div>
-              <div class="card-content">
-                <p class="title">Handmaded Danim shoe</p>
-                <div class="price">
-                  <span class="amount">$100</span>
-                </div>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </div>
-            <div class="card sale">
-              <div class="img-container">
-                <img src="assets/card6.jpg" alt="" />
-              </div>
-              <div class="card-content">
-                <p class="title">Handmaded Danim shoe</p>
-                <div class="price">
-                  <del>$150.00</del>
-                  <span class="amount">$100</span>
-                </div>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </div>
-            <div class="card ">
-              <div class="img-container">
-                <img src="assets/card7.jpg" alt="" />
-              </div>
-              <div class="card-content">
-                <p class="title">Handmaded Danim shoe</p>
-                <div class="price">
-                  <span class="amount">$100</span>
-                </div>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </div>
-            <div class="card new">
-              <div class="img-container">
-                <img src="assets/card8.jpg" alt="" />
-              </div>
-              <div class="card-content">
-                <p class="title">Handmaded Danim shoe</p>
-                <div class="price">
-                  <span class="amount">$100</span>
-                </div>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card-container flex">
-            <div class="card new">
-              <div class="img-container">
-                <img src="assets/card9.jpg" alt="" />
-              </div>
-              <div class="card-content">
-                <p class="title">Handmaded Danim shoe</p>
-                <div class="price">
-                  <span class="amount">$100</span>
-                </div>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </div>
-            <div class="card ">
-              <div class="img-container">
-                <img src="assets/card10.jpg" alt="" />
-              </div>
-              <div class="card-content">
-                <p class="title">Handmaded Danim shoe</p>
-                <div class="price">
-                  <span class="amount">$100</span>
-                </div>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </div>
-            <div class="card sale">
-              <div class="img-container">
-                <img src="assets/card11.jpg" alt="" />
-              </div>
-              <div class="card-content">
-                <p class="title">Handmaded Danim shoe</p>
-                <div class="price">
-                <del>$150.00</del>
-                 <span class="amount">$100</span>
-                </div>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="img-container">
-                <img src="assets/card12.jpg" alt="" />
-              </div>
-              <div class="card-content">
-                <p class="title">Handmaded Danim shoe</p>
-                <div class="price">
-                  <span class="amount">$100</span>
-                </div>
-                <button class="add-to-cart">Add to cart</button>
-              </div>
-            </div>
-          </div>
+        <button class="back">back</button>
+
+        <div class="wraper container">
+          <div class="cart-item"></div>
+          <div class="cart-total"></div>
         </div>
       </section>
 
-
-      <section class="section">
+      <!-- <section class="section">
         <div class="secondry-bg">
           <div class="container flex wrap">
             <div class="box">
@@ -281,10 +199,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="section">
-        <div class="container">
+      <!-- <section class="section">
+        <div class="container blog-box">
           <h2>New Latest</h2>
           <div class="line"></div>
 
@@ -323,8 +241,85 @@
           </div>
           </div>
         </div>
-      </section>
+      </section> -->
+
+      <!-- <section class="section">
+        <div class="secondry-bg msg-container">
+          <form class="container flex">
+          <h3>Sign up for send  newsletter</h3>
+          <div class="input-container flex">
+            <input type="email" name="email" id="email" placeholder="your email" autocomplete="off">
+            <button>Subscribe</button>
+          </div>  
+          <div class="social-icon flex" >
+            <a href="#" class="media">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="media">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="#" class="media">
+              <i class="fa-brands fa-google"></i>
+            </a>
+            <a href="#" class="media">
+              <i class="fa-brands fa-behance"></i>
+            </a>
+            <a href="#" class="media">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+          </form>
+        </div>
+      </section> -->
+
+      <!-- <footer class="section">
+        <div class=" footer-container" >
+          <ul class="footer-list">
+            <li><a href="#" class="footer-link">About us</a></li>
+            <li><a href="#" class="footer-link">Online Store</a></li>
+            <li><a href="#" class="footer-link">Blog</a></li>
+            <li><a href="#" class="footer-link">contact us</a></li>
+          </ul>
+          <ul class="footer-list">
+            <li><a href="#" class="footer-link">Login / Register</a></li>
+            <li><a href="#" class="footer-link">your Cart</a></li>
+            <li><a href="#" class="footer-link">Wishlist items</a></li>
+            <li><a href="#" class="footer-link">Your Checkout</a></li>
+          </ul>
+          <ul class="footer-list">
+            <li><a href="#" class="footer-link">FAQs></li>
+            <li><a href="#" class="footer-link">Terms of Services</a></li>
+            <li><a href="#" class="footer-link">Privecy policy</a></li>
+            <li><a href="#" class="footer-link">Return</a></li>
+          </ul>
+          <ul class="footer-list ">
+            <li class="footer-logo">
+               <a href="#" class="logo"> Easy<span>Buy.</span> </a>
+            </li>
+            <li>
+              <p class="details">
+                Abc city, xyz road
+              </p>
+            <li>
+              <p class="details">
+                +91 12345678
+              </p>
+            <li>
+              <p class="details">
+                EasyBuy@gmail.com
+              </p>
+            </li>
+          </ul>
+        
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2025
+            <a href="#" class="footer-link">EasyBuy.</a>
+          </p>
+        </div>
+      </footer> -->
     </main>
+
+    <script type="module" src="Jsfiles/App.js"></script>
   </body>
-  <script src="Js files/App.js"></script>
 </html>
